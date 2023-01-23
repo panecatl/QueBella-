@@ -2,7 +2,7 @@ import './index.scss';
 import Logo from '../../assets/images/quebella.png'
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartShopping, faCookie, faEnvelope, faHome } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarDays, faCartShopping, faCookie, faEnvelope, faHome } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
@@ -34,6 +34,14 @@ const Sidebar = () => (
         className="contact-link" 
         to="/cantact">
                 <FontAwesomeIcon icon={faEnvelope} color="#cb6e9a" />
+        </NavLink>
+        {/* scheduled events */}
+        <NavLink 
+        exact="true" 
+        activeclassname="active" 
+        className="schedule-link" 
+        to="/schedule">
+                <FontAwesomeIcon icon={faCalendarDays} color="#cb6e9a" />
         </NavLink>
         </nav>
         <ul>
