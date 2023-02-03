@@ -34,3 +34,27 @@
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
 }
+
+.about-page {
+  .text-zone {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translateY(-250%);
+    width: 70%;
+    vertical-align: middle;
+    display: table-cell;
+    max-height: 90%;
+
+    h1 {
+      font-family: 'Coolvetica';
+      letter-spacing: 2px;
+      font-weight: 200;
+      animation: pulse 1s;
+
+      &:nth-of-type(1) {
+        animation-delay: 1s;
+      }
+    }
+  }
+}
