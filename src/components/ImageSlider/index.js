@@ -5,7 +5,7 @@ import fall from '../../assets/images/fall.png';
 import babyShower from '../../assets/images/babyShower.png';
 import wedding from '../../assets/images/heartcookie.png';
 import milFalcon from '../../assets/images/milleniumfalcon.png';
-import spurs from '../../assets/images/spurs.png';
+
 
 const ImageSlider = () => {
 
@@ -31,27 +31,24 @@ const ImageSlider = () => {
 
     return (
         <div className='sliderCont'>
-            <Carousel responsive={responsive}>
+            <Carousel responsive={responsive}  infinite={true}>
                 <div className='card'>
                     <img className='cookie' src={fall} alt='fall' />
                 </div>
-
+                <br />
                 <div className='card'>
                     <img className='cookie' src={babyShower} alt='Baby Shower' />
                 </div>
-
+                <br />
                 <div className='card'>
                     <img className='cookie' src={wedding} alt='Wedding' />
                 </div>
-
+                <br />
                 <div className='card'>
                     <img className='cookie' src={milFalcon} alt='Millenium Falcon' />
                 </div>
-
-                <div className='card'>
-                    <img className='cookie' src={spurs} alt='Spurs' />
-                </div>
-
+                <br />
+                
             </Carousel>;
         </div>
     )
