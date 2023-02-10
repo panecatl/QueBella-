@@ -32,7 +32,7 @@ const Sidebar = () => (
         exact="true" 
         activeclassname="active" 
         className="contact-link" 
-        to="/cantact">
+        to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#cb6e9a" />
         </NavLink>
         {/* scheduled events */}
@@ -40,7 +40,7 @@ const Sidebar = () => (
         exact="true" 
         activeclassname="active" 
         className="schedule-link" 
-        to="/schedule">
+        to="/events">
                 <FontAwesomeIcon icon={faCalendarDays} color="#cb6e9a" />
         </NavLink>
         </nav>
