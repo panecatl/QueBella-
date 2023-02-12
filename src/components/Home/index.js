@@ -17,7 +17,7 @@ const Home = () => {
                 as well as seeing the events that are coming up!
                 
                 Some of these events will be at farmer markets, or some of them might be cookie decorating classes!</h1>
-                <Link to='/contact' className="flat-button">CONTACT ME</Link>
+                <Link to='/contact' className="flat-button">Order Here</Link>
             </div>
             
             <div className='slider'>
