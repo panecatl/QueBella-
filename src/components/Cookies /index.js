@@ -1,11 +1,13 @@
 import './index.scss';
+import Modal from '../Modal';
 
 const Cookies = () => {
 
     return (
-        <div className='container about-page'>
+        <div className='container cookie-page'>
             <div className='text-zone'>
-                <h1>Hello, bellow are some of my recent cookie orders!</h1>
+                <button>Hello</button>
+                <Modal />
             </div>
         </div>
     )
