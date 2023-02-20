@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ImageSlider from "../ImageSlider";
+import ImageSlider from "../HomeSlider";
 import './index.scss';
 
 

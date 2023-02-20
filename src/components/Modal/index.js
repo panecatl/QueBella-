@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageSlider from '../ImageSlider'
+import WeddingSlider from '../WeddingSlider';
 import './index.scss';  
 
 const Modal = ({ closeModal }) => {
@@ -12,7 +12,7 @@ const Modal = ({ closeModal }) => {
           <h1>Wedding Cookies</h1>
         </div>
         <div className='body'>
-          <ImageSlider />
+          <WeddingSlider />
         </div>
       </div>
     </div>
