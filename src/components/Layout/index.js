@@ -3,6 +3,7 @@ import Sidebar from '../Sidebar';
 import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
+    // used as the big text of "Que Bella Cookies" on hompage. Mainly added for styling the title of the company name 
     return (
     <div className='App'>
         <Sidebar />

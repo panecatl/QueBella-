@@ -7,12 +7,12 @@ import Cookies from './components/Cookies ';
 function App() {
   return (
     <>
-    <Routes>
-      <Route path='/' element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path='cookies' element={<Cookies />} />
-      </Route>
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path='cookies' element={<Cookies />} />
+        </Route>
+      </Routes>
     </>
   );
 }
