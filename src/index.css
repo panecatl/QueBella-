@@ -1,12 +1,13 @@
 html {
-  font-size: 62.5%;
+  font-size: 4pt;
 }
 
 body {
   margin: 0;
-  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
-  color: #cb6e9a;
-  background: #f4ecdc;
+  font-family: 'Helvetica Neue', 'sans-serif';
+  font-size: 3rem !important;
+  color: #cb6e9a !important;
+  background: #f4ecdc !important;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;

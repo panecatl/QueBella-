@@ -1,0 +1,104 @@
+.contact-page{
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+}
+
+.contact-page .carousel{
+    height: 70vh;
+    width: 100%;
+}
+
+.contact-page .carousel-inner,
+.contact-page .carousel-item,
+.contact-page .carousel-item-inner{
+    height: 100%;
+    width: 100%;
+}
+
+.contact-page .carousel img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.contact-page-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 12.5px;
+    color: #ffffff;
+    z-index: 0;
+
+    .title{
+        font-size: 8rem;
+        font-weight: 700;
+    }
+
+    .text{
+        font-size: 6rem;
+        font-weight: 500;
+    }
+
+    .button-container{
+        padding: 50px 0;
+        flex: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.button,
+    a.button:link,
+    a.button:visited{
+        position: relative;
+        text-decoration: none;
+        padding: 15px 30px;
+        background-color: #4fb9af;
+        color: #FFFFFF;
+        font-size: 4rem;
+        font-weight: 600;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    a.button::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        height: 0;
+        width: 0;
+        background-color: #cb6e9a;
+        border-radius: 25px;
+        z-index: -1;
+        transition: all .2s;
+    }
+
+    a.button:hover::before{
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-image: linear-gradient( 99deg,  rgba(115,18,81,1) 10.6%, rgba(28,28,28,1) 118% );
+        opacity: 0.75;
+        z-index: -1;
+    }
+}
