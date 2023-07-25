@@ -2,10 +2,11 @@ import './index.scss';
 import Logo from '../../assets/images/quebella.png'
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCalendarDays, faCartShopping, faCookie, faHome } from '@fortawesome/free-solid-svg-icons';
+import { faCartShopping, faCookie, faEnvelope, faHome } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
+    // sidebar used for navigation 
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={Logo} alt='logo' />
@@ -27,15 +28,24 @@ const Sidebar = () => (
         to="/cookies">
                 <FontAwesomeIcon icon={faCookie} color="#cb6e9a" />
         </NavLink>
-        {/* contact */}
-        {/* scheduled events */}
+        
         <NavLink 
+        exact="true" 
+        activeclassname="active" 
+        className="contact-link" 
+        to="/contact">
+                <FontAwesomeIcon icon={faEnvelope} color="#cb6e9a" />
+        </NavLink>
+
+        {/* scheduled events */}
+        {/* wanted to add event feature in the future */}
+        {/* <NavLink 
         exact="true" 
         activeclassname="active" 
         className="schedule-link" 
         to="/events">
                 <FontAwesomeIcon icon={faCalendarDays} color="#cb6e9a" />
-        </NavLink>
+        </NavLink> */}
         </nav>
         <ul>
             {/* facebook */}
