@@ -3,6 +3,7 @@ import Header from '../Header';
 import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
+    // used as the big text of "Que Bella Cookies" on hompage. Mainly added for styling the title of the company name 
     return (
     <div className='app'>
         <Header />
