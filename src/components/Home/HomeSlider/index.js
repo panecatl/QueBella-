@@ -1,13 +1,13 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './index.scss';
-import fall from '../../assets/images/fall.png';
-import babyShower from '../../assets/images/babyShower.png';
-import wedding from '../../assets/images/heartcookie.png';
-import milFalcon from '../../assets/images/milleniumfalcon.png';
+import fall from '../../../assets/images/fall.png';
+import babyShower from '../../../assets/images/babyShower.png';
+import wedding from '../../../assets/images/heartcookie.png';
+import milFalcon from '../../../assets/images/milleniumfalcon.png';
 
-
-const ImageSlider = () => {
+// start of the slide show on the main page 
+const HomeSlider = () => {
 
     const responsive = {
         superLargeDesktop: {
@@ -57,4 +57,4 @@ const ImageSlider = () => {
     )
 }
 
-export default ImageSlider;
+export default HomeSlider;

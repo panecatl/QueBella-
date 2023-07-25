@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ImageSlider from "../HomeSlider";
+import HomeSlider from "./HomeSlider";
 import './index.scss';
 
 
@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             
             <div className='slider'>
-                <ImageSlider />
+                <HomeSlider />
             </div>
 
         </div>

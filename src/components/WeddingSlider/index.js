@@ -1,10 +1,7 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import whiteBlueHeart from '../../assets/images/heartcookie.png';
 import './index.scss';
-import fall from '../../assets/images/fall.png';
-import babyShower from '../../assets/images/babyShower.png';
-import wedding from '../../assets/images/heartcookie.png';
-import milFalcon from '../../assets/images/milleniumfalcon.png';
 
 
 const WeddingSlider = () => {
@@ -33,27 +30,27 @@ const WeddingSlider = () => {
       };
 
     return (
-        <div className='sliderCont'>
-            <Carousel responsive={responsive}  infinite={true} autoPlay={true} autoPlaySpeed={2000}>
-                <div className='card'>
-                    <img className='cookie' src={fall} alt='fall' />
-                </div>
-                <br />
-                <div className='card'>
-                    <img className='cookie' src={babyShower} alt='Baby Shower' />
-                </div>
-                <br />
-                <div className='card'>
-                    <img className='cookie' src={wedding} alt='Wedding' />
-                </div>
-                <br />
-                <div className='card'>
-                    <img className='cookie' src={milFalcon} alt='Millenium Falcon' />
-                </div>
-                <br />
-                
-            </Carousel>;
-        </div>
+        <Carousel responsive={responsive} showDots={true} draggable={false} infinite={true}>
+            <div className='card'>
+                <img className='cookie' src={whiteBlueHeart} alt='fall' />
+            </div>
+            <br />
+            <div className='card'>
+                <img className='cookie' src={whiteBlueHeart} alt='fall' />
+            </div>
+            <br />
+            <div className='card'>
+                <img className='cookie' src={whiteBlueHeart} alt='fall' />
+            </div>
+            <br />
+            <div className='card'>
+                <img className='cookie' src={whiteBlueHeart} alt='fall' />
+            </div>
+            <br />
+            <div className='card'>
+                <img className='cookie' src={whiteBlueHeart} alt='fall' />
+            </div>
+        </Carousel>
     )
 }
 
