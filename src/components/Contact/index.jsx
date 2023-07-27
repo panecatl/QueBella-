@@ -55,7 +55,7 @@ const Contact = () => {
                 <span className="title">Let's talk!</span>
                 <span className="text">We'd love to answer all of your questions.</span>
                 <div className="button-container">
-                    <a href="https://form.jotform.com/210905714008145" className="button">Contact Us</a>
+                    <a href="https://form.jotform.com/210905714008145" className="button">Order Here</a>
                 </div>
             </div>
         </div>
