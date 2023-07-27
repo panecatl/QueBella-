@@ -24,32 +24,32 @@ const Home = () => {
                 <Carousel>
                     <CarouselItem>
                         <div className="carousel-item-inner">
-                            <img src="/assets/images/home/cookies-home-1.jpeg" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/home/cookies-home-1.jpeg"} alt="" />
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="carousel-item-inner">
-                            <img src="/assets/images/home/cookies-home-2.jpeg" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/home/cookies-home-2.jpeg"} alt="" />
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="carousel-item-inner">
-                            <img src="/assets/images/home/cookies-home-3.jpeg" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/home/cookies-home-3.jpeg"} alt="" />
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="carousel-item-inner">
-                            <img src="/assets/images/home/cookies-home-4.jpeg" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/home/cookies-home-4.jpeg"} alt="" />
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="carousel-item-inner">
-                            <img src="/assets/images/home/cookies-home-5.jpeg" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/home/cookies-home-5.jpeg"} alt="" />
                         </div>
                     </CarouselItem>
                     <CarouselItem>
                         <div className="carousel-item-inner">
-                            <img src="/assets/images/home/cookies-home-6.jpeg" alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/home/cookies-home-6.jpeg"} alt="" />
                         </div>
                     </CarouselItem>
                 </Carousel>

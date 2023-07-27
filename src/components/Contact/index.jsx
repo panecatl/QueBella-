@@ -7,47 +7,47 @@ const Contact = () => {
             <Carousel controls={false} indicators={false} touch={true} wrap={true} interval={5000} pause={false}>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-1.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-1.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-2.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-2.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-3.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-3.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-4.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-4.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-5.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-5.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-6.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-6.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-7.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-7.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-8.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-8.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
                 <CarouselItem>
                     <div className="carousel-item-inner">
-                        <img src="/assets/images/cookies/coorporate/cookies-coorporate-9.jpeg" alt="" />
+                        <img src={process.env.PUBLIC_URL + "/assets/images/cookies/coorporate/cookies-coorporate-9.jpeg"} alt="" />
                     </div>
                 </CarouselItem>
             </Carousel>
