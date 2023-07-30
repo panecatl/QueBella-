@@ -53,7 +53,7 @@ const Contact = () => {
             </Carousel>
             <div className="contact-page-content">
                 <span className="title">Let's talk!</span>
-                <span className="text">We'd love to hear from you. Order now!</span>
+                <span className="text">We would love to hear from you. Order now!</span>
                 <div className="button-container">
                     <a href="https://form.jotform.com/210905714008145" className="button">Order Here</a>
                 </div>
