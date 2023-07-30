@@ -13,11 +13,11 @@
   .logo {
     padding: 10px;
     display: block;
-    height: auto;
+    height: unset;
     width: 100%;
 
     img {
-      height: auto;
+      height: unset;
       width: 100%;
     }
   }
@@ -224,7 +224,8 @@
 
     img {
       height: 100% !important;
-      width: unset;
+      width: unset !important;
+      aspect-ratio: 1/1;
     }
   }
 }
