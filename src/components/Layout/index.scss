@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
 .app{
     height: 100vh;
     height: 100dvh;
@@ -19,8 +21,9 @@
   color: #cb6e9a;
   opacity: 1;
   font-size: 60px;
-  font-family: cursive;
+  font-family: 'Borel', cursive;
   animation: fadeIn 1s backwards;
+  line-height: 1.6;
 }
 
 .container {
