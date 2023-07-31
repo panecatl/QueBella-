@@ -24,7 +24,7 @@ const Cookies = () => {
         <div className='cookie-page'>
             <div className='text-zone'>
                 <div className="cookies">
-                    <span className='cookies-title'>My Cookies</span>
+                    {/* <span className='cookies-title'>My Cookies</span> */}
                     <div className="cookies-slider-container">
                         <div className="cookies-slider-jumper">
                             <button id="slide-1-jumper" type="button" className="active" onClick={() => jump('slide-1')}>
