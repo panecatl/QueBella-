@@ -10,7 +10,7 @@ const Home = () => {
         <div className="home-page">
             <div className="text-zone">
                 <p>
-                    Hi, <br />
+                Welcome, <br />
                     I'm Que Bella Cookies and welcome to my page! 
                     On this website you will be able to see previous orders,  
                     inquire about new orders, 
