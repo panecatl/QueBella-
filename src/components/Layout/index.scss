@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 
-.app{
-    height: 100vh;
-    height: 100dvh;
-    display: flex;
-    flex-flow: row nowrap;
+.app {
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
 .page {
-    padding: 50px;
+  padding: 50px;
   flex: 1;
   height: 100%;
   overflow-y: scroll;
@@ -24,7 +24,6 @@
   font-family: 'Borel', cursive;
   animation: fadeIn 1s backwards;
   line-height: 1.6;
-  text-transform: lowercase;
 }
 
 .container {
@@ -58,12 +57,12 @@
   }
 }
 
-@media only screen and (max-width: 900px){
-    .app{
-        flex-direction: column;
-    }
+@media only screen and (max-width: 900px) {
+  .app {
+    flex-direction: column;
+  }
 
-    .page{
-        padding: 25px;
-    }
+  .page {
+    padding: 25px;
+  }
 }
